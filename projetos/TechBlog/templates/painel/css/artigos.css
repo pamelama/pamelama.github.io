@@ -1,0 +1,53 @@
+*, *:before, *:after{
+    box-sizing:border-box;
+}
+
+body{
+    background: #efefef;
+    font-family: 'Varela Round', sans-serif;
+    color: #22313F;
+}
+
+.round{
+    border-radius: 6px;
+}
+
+.sombra{
+    box-shadow: 0 0 1em #d8d8d8;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.lista-artigos{
+	max-width: 90%;
+	background-color: #fff;
+	margin: 5% auto;
+	padding: 5%;
+}
+
+h2 {
+	display: inline-block;
+	margin-bottom: 6%;
+}
+
+.btn-novo{
+	padding: 1.5%;
+	float: right;
+	border: none;
+	color: #fff;
+	font-weight: bolder;
+	vertical-align: text-bottom;
+}
