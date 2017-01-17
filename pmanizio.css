@@ -69,3 +69,10 @@ section{
 	border-radius: 4px;
 	font-weight: normal;
 }
+
+@media screen and (max-width: 375px){
+	.btn{
+		display: block;
+		margin: 6% auto;
+	}
+}
