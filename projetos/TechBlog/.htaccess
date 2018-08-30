@@ -1,9 +1,0 @@
-RewriteEngine On
-
-RewriteCond %{REQUEST_FILENAME} !-f
-
-RewriteRule ^([^\.]+)$ $1.php [NC,L]
-
-RewriteRule ^artigo/([0-9]+) artigo.php?id=$1&url=$2
-
-ErrorDocument 400 /404.html
