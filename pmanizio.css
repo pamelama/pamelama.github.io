@@ -30,6 +30,7 @@ main{
 	text-align: center;
 	padding: 6%;
 	margin: 4%;
+	max-width: 1440px;
 }
 
 h1{
@@ -79,4 +80,15 @@ nav ul{
 		display: block;
 		margin: 6% auto;
 	}
+}
+
+.wrapper-habilidades{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.wrapper-habilidades > img{
+	width: 50px;
+	margin: 15px;
 }
